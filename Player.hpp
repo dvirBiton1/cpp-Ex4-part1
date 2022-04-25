@@ -8,9 +8,9 @@ namespace coup{
     {
     private:
         std::string name;
-        Game game;
         int money;
     public:
+        Game game;
         Player(Game &game, string name);//{
         //     this->game = game;
         //     this->name = name;

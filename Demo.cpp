@@ -28,7 +28,13 @@ int main() {
 	/* This player drew the "Duke" card, his name is Moshe
 	and he is a player in game_1 */
 	Duke duke{game_1, "Moshe"};
+	cout<< duke.coins() <<endl;
+	duke.game.players();
 	Assassin assassin{game_1, "Yossi"};
+	cout<< assassin.coins() <<endl;
+	assassin.game.players();
+	cout << "game1\n";
+	game_1.players();
 	Ambassador ambassador{game_1, "Meirav"};
 	Captain captain{game_1, "Reut"};
 	Contessa contessa{game_1, "Gilad"};
