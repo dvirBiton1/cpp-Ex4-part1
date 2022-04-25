@@ -1,4 +1,4 @@
-// #include "Player.hpp"
+#include "Player.hpp"
 
 using namespace std;
 namespace coup{
@@ -8,18 +8,12 @@ namespace coup{
         string name;
         Game game;
     public:
-        Ambassador(Game &game, string name) : Player(game, name){};
+        Ambassador(Game &game, string name);
         void transfer(Player p1, Player p2);
         ~Ambassador();
     };
     
-    // Ambassador::Ambassador(/* args */)
-    // {
-    // }
     
-    // Ambassador::~Ambassador()
-    // {
-    // }
     
 
 

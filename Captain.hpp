@@ -1,4 +1,4 @@
-// #include "Player.hpp"
+#include "Player.hpp"
 
 using namespace std;
 namespace coup{
@@ -7,20 +7,11 @@ namespace coup{
     private:
 
     public:
-        Captain(Game &game, string name) : Player(game, name){};
+        Captain(Game &game, string name);
         void block(Player p);
         void steal(Player p);
         ~Captain();
     };
-    
-    // Captain::Captain(/* args */)
-    // {
-    // }
-    
-    // Captain::~Captain()
-    // {
-    // }
-    
 
 
 }
