@@ -80,8 +80,7 @@
 
 <div dir='ltr'>
 
-    make demo1 && ./demo1
-    make demo2 && ./demo2
+    make demo && ./demo
 	make test && ./test
 
 </div>
@@ -98,4 +97,4 @@
 אין לשנות קבצים קיימים אלא רק להוסיף קבצים חדשים.
 
 בהצלחה
-</div># cpp-Ex4-part1
+</div>
