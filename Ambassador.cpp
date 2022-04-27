@@ -10,4 +10,7 @@ namespace coup{
     void Ambassador::transfer(Player p1, Player p2){
         cout << "transfer\n";
     }
+    void Ambassador::role(){
+        cout<<"Ambassador"<<endl;
+    }
 }

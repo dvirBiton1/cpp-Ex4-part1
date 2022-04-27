@@ -23,7 +23,6 @@ using namespace std;
 int main() {
 
 	Game game_1{};
-	cout<<"hehee\n";
 	/* This player drew the "Duke" card, his name is Moshe
 	and he is a player in game_1 */
 	Duke duke{game_1, "Moshe"};
@@ -45,6 +44,7 @@ int main() {
 	for(string name : players){
 		cout << name << endl;
 	}
+	duke.role();
 
 	// // prints Moshe
 	cout << game_1.turn() << endl;

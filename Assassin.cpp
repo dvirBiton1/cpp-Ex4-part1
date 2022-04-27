@@ -1,12 +1,15 @@
 #include "Assassin.hpp"
-namespace coup{
+namespace coup
+{
     Assassin::Assassin(Game &game, string name) : Player(game, name)
     {
     }
+
     Assassin::~Assassin()
     {
     }
-    int Assassin::coins(){
-        return 3;
+    void Assassin::role(){
+        cout<<"Assassin"<<endl;
     }
+
 }

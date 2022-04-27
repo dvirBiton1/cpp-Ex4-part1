@@ -2,7 +2,6 @@
 namespace coup{
     vector<string> Game::players()
     {
-        vector<string> stam ={"stam1","stam2"};
         return this->playersList;
     }
     string Game::turn()
@@ -11,7 +10,8 @@ namespace coup{
         {
             throw runtime_error("their is no players in this game");
         }
-        return "turn";
+        i = i % playersList.size();
+        return this->playersList[this->i];
     }
     string Game::winner()
     {
@@ -19,7 +19,8 @@ namespace coup{
         {
             throw runtime_error("their is no players in this game");
         }
-        return this->playersList[this->i++];
+        i = i % playersList.size();
+        return this->playersList[this->i];
     }
     Game::Game(/* args */)
     {

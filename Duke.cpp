@@ -14,5 +14,8 @@ namespace coup
     void Duke::tax(){
         cout<< "tax\n";
     }
+    void Duke::role(){
+        cout<<"duke"<<endl;
+    }
 
 }

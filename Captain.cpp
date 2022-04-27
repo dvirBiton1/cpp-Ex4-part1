@@ -14,4 +14,7 @@ namespace coup
     void Captain::steal(Player p){
         cout << "stral\n";
     }
+    void Captain::role(){
+        cout<<"Captain"<<endl;
+    }
 }

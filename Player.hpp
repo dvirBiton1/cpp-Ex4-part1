@@ -4,10 +4,11 @@
 #pragma once
 using namespace std;
 namespace coup{
+    class Game;
     class Player
     {
     private:
-        std::string name;
+        string name;
         int money;
         Game *game;
     public:

@@ -10,4 +10,7 @@ namespace coup{
     void Contessa::block(Player p){
         cout<< "block\n";
     }
+    void Contessa::role(){
+        cout<<"Contessa"<<endl;
+    }
 }
